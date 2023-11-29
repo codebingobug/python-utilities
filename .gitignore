@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore data files (modify as needed)
+*.csv
+*.xlsx
+
+# Ignore log files
+*.log
+
+# Ignore any .DS_Store files
+.DS_Store
+
+# Ignore any files of IDEA IDE
+.idea/
