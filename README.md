@@ -1,4 +1,4 @@
-# Python Utilities
+# Bingo Utilities
 
 This is a Python project hosted on GitHub, containing a collection of utility scripts.
 
@@ -15,6 +15,12 @@ pip install git+https://github.com/codebingobug/python-utilities.git
 This project contains the following utility scripts:
 
 - `file_logger.py`: (Get a logger with both stream and file handler)
+
+```python
+from bingo_utils.file_logger import get_logger_with_file
+
+logger = get_logger_with_file('logger_name')
+```
 
 ## Tests
 

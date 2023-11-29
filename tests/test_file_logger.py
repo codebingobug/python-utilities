@@ -1,7 +1,7 @@
 import os
 import logging
 import unittest
-from utilities.file_logger import get_logger_with_file
+from bingo_utils.file_logger import get_logger_with_file
 
 
 class TestFileLogger(unittest.TestCase):
